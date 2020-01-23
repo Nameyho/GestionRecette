@@ -1,0 +1,134 @@
+
+@font-face {
+    font-family: 'bernadette';
+    src: url('font/bernadette-webfont.woff2') format('woff2'),
+         url('font/bernadette-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Poiret';
+    src: url('font/poiretone-webfont.woff2') format('woff2'),
+         url('font/poiretone-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: url("../images/header.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    }
+.container{
+padding-top: 30px;
+margin-right: 50px;
+
+}
+
+
+.container-fluid{
+    background-color: :transparent;
+}
+
+h1{
+    color: white;
+    margin:0;
+    position: absolute;
+    left: 32%;
+    top: 45%;
+    font-size: 80px;
+    font-family: 'bernadette';
+}
+
+
+
+li {
+    list-style: none;
+    position: absolute;
+ 
+    
+
+}
+nav {
+    text-align: right;
+    float: right;
+   
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+   
+}
+
+.nav{
+   display: flex;
+    list-style: none;  
+
+}
+
+nav a {
+    font-family: 'Poiret';
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+
+nav a:hover {
+    color: #00ffb3;
+    transition-property: color;
+    transition-duration: 1s;
+    background-color: :transparent;
+}
+
+
+h3 a {
+font-family: 'Poiret';
+color: white;
+font-size: 30px;
+    text-align: right;
+    float: right;
+position: absolute;
+left: 36%;
+top: 60%;
+z-index: 1;
+
+}
+h4 a {
+font-family: 'Poiret';
+color: white;
+font-size: 30px;
+    text-align: right;
+    float: right;
+position: absolute;
+left: 52.5%;
+top: 60%;
+
+}
+img {
+
+position: absolute;
+left: 29.5%;
+top: 57%;
+
+}
+
+
+a:hover {
+    color: #00ffb3;
+    transition-property: color;
+    transition-duration: 1s;
+    background-color: :transparent;
+
+}
+
+

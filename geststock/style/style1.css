@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: 'bernadette';
+    src: url('font/bernadette-webfont.woff2') format('woff2'),
+         url('font/bernadette-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Cookie';
+    src: url('font/cookies.woff2') format('woff2'),
+         url('font/cookies.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: url("../images/header1.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    }
+.container{
+    position: absolute;
+    left:25%;
+    top: 20%; 
+    
+}
+
+
+#listing{
+    position: absolute;
+    margin: 0 auto;
+     color: white;
+    font-size: 65px;
+    font-family: 'bernadette';
+    position: absolute;
+}
+  
+.header{
+
+    color: white;
+    font-size: 65px;
+    font-family: 'bernadette';
+    position: absolute;
+    top: -125%;
+
+}
+
+label{
+    font-family: 'Cookie';
+    font-size: 25px;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+input{
+    font-family: Ariel sans serif;
+    font-size: 15px;
+}
+
+
+legend {
+
+font-family: 'cookie';
+      border:none;
+      font-size: 25px;
+      color: white;
+padding-left: 65px;
+
+
+}
+
+.listing{
+    position: absolute;
+    margin: 0 auto;
+}
+  
+h2 h3{
+color: white;
+    font-size: 45px;
+    font-family: 'bernadette';
+    
+}
